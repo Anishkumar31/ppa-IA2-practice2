@@ -7,7 +7,7 @@ int input_side()
   return n;
 }
 
-// 1 , 0
+// 1 ,0
 int check_scalene(int a,int b,int c)
 {
  if(a!=b && b!=c && c!=a)

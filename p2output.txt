@@ -1,1 +1,17 @@
-
+ gcc -g p2original.c 
+ ./a.out
+enter the side of the tingle
+2
+enter the side of the tingle
+3
+enter the side of the tingle
+4
+the  tringle is Scalene
+ ./a.out
+enter the side of the tingle
+1 
+enter the side of the tingle
+1
+enter the side of the tingle
+1
+the tringle is not scalene 

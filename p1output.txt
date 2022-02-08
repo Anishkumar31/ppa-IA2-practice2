@@ -1,1 +1,7 @@
-
+ gcc -g p1original.c
+ ./a.out
+Enter the base 
+1
+Enter the Height
+2
+Area of Triangle is 1.000000

@@ -1,5 +1,5 @@
 #include <stdio.h>
-int input()
+int input_array_size()
 {
   int n;
   printf("enter the value of n:\n");
@@ -7,7 +7,7 @@ int input()
   return n;
 }
 
-void aray(int n,int a[10])
+void input_array(int n,int a[10])
 {
   int i;
   for(i=0;i<n;i++)
@@ -16,7 +16,7 @@ void aray(int n,int a[10])
     scanf("%d",&a[i]);
   }
 }
-int sum_composite_numbers(int n,int a[n])
+int sum_composite(int n,int a[n])
 {
    int i,k,sum=0,count;
   for(i=0;i<n;i++)
@@ -24,7 +24,7 @@ int sum_composite_numbers(int n,int a[n])
   count=0;
    for(k=1;k<a[i];k++)
      {
-       if((a[i]%k)==0);
+       if((a[i]%k)==0)
        count=count+1;
      }
    if(count>2)
